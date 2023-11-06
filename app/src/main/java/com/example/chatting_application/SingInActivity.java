@@ -30,7 +30,10 @@ public class SingInActivity extends AppCompatActivity {
         binding = ActivitySingInBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+        getSupportActionBar().hide();
+
         auth = FirebaseAuth.getInstance();
+
         progressDialog = new ProgressDialog(SingInActivity.this);
         progressDialog.setTitle("Login ");
         progressDialog.setMessage("Login to your Account");

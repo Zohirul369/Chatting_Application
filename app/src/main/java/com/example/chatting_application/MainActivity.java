@@ -1,10 +1,12 @@
 package com.example.chatting_application;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 
 import com.example.chatting_application.databinding.ActivityMainBinding;
 import com.google.firebase.auth.FirebaseAuth;
@@ -37,4 +39,6 @@ public class MainActivity extends AppCompatActivity {
         inflater.inflate(R.menu.menu, menu);
         return super.onCreateOptionsMenu(menu);
     }
+
+
 }

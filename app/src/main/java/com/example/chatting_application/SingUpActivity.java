@@ -32,12 +32,11 @@ public class SingUpActivity extends AppCompatActivity {
         binding = ActivitySingUpBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+        getSupportActionBar().hide();
 
         auth = FirebaseAuth.getInstance();
 
         database = FirebaseDatabase.getInstance();
-
-
 
         progressDialog = new ProgressDialog(SingUpActivity.this);
         progressDialog.setTitle("Create New Account");
