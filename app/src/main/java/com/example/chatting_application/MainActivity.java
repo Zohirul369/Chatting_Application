@@ -39,25 +39,24 @@ public class MainActivity extends AppCompatActivity {
         inflater.inflate(R.menu.sidemenu , menu);
         return super.onCreateOptionsMenu(menu);
     }
-    /**
+
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId())
-        {
-            case R.id.group_chat:
+        int item_id=item.getItemId();
+
+            if (item_id==R.id.group_chat){
                 Toast.makeText(this, "You click Group Chat", Toast.LENGTH_SHORT).show();
-                break;
+            }
 
-            case R.id.setting:
-                Toast.makeText(this, "You click setting", Toast.LENGTH_SHORT).show();
-                break;
+            else if (item_id==R.id.setting){
+            Toast.makeText(this, "You click setting", Toast.LENGTH_SHORT).show();
+            }
 
-            case R.id.logout:
+            else if (item_id==R.id.logout){
                 Toast.makeText(this, "You click Logout", Toast.LENGTH_SHORT).show();
-                break;
+            }
 
-        }
         return true;
-    }*/
+    }
 
 }
