@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.example.chatting_application.databinding.ActivitySingInBinding;
 import com.example.chatting_application.databinding.ActivitySingUpBinding;
+import com.google.android.gms.auth.api.identity.BeginSignInRequest;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -36,7 +37,7 @@ public class SingInActivity extends AppCompatActivity {
 
         progressDialog = new ProgressDialog(SingInActivity.this);
         progressDialog.setTitle("Login ");
-        progressDialog.setMessage("Login to your Account");
+        progressDialog.setMessage("Loging to your Account");
 
         binding.singInButton.setOnClickListener(new View.OnClickListener() {
             @Override

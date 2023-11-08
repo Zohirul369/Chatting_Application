@@ -5,6 +5,7 @@ import static com.example.chatting_application.R.id.group_chat;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     ActivityMainBinding binding;
+    FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
+        auth = FirebaseAuth.getInstance();
 
     }
 
@@ -45,15 +47,18 @@ public class MainActivity extends AppCompatActivity {
         int item_id=item.getItemId();
 
             if (item_id==R.id.group_chat){
-                Toast.makeText(this, "You click Group Chat", Toast.LENGTH_SHORT).show();
+
             }
 
             else if (item_id==R.id.setting){
-            Toast.makeText(this, "You click setting", Toast.LENGTH_SHORT).show();
+
             }
 
             else if (item_id==R.id.logout){
-                Toast.makeText(this, "You click Logout", Toast.LENGTH_SHORT).show();
+                auth.signOut();
+                Intent intent = new Intent(MainActivity.this, SingInActivity.class);
+                startActivity(intent);
+
             }
 
         return true;
