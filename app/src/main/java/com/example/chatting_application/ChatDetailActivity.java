@@ -6,10 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.chatting_application.Model.Messages;
 import com.example.chatting_application.databinding.ActivityChatDetailBinding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 import com.squareup.picasso.Picasso;
+
+import java.util.ArrayList;
 
 public class ChatDetailActivity extends AppCompatActivity {
 
@@ -30,8 +33,8 @@ public class ChatDetailActivity extends AppCompatActivity {
         database = FirebaseDatabase.getInstance();
         auth = FirebaseAuth.getInstance();
 
-        String senderId = auth.getUid();
-        String recieveId = getIntent().getStringExtra("userId");
+        final String senderId = auth.getUid();
+        String receiverId = getIntent().getStringExtra("userId");
         String userName = getIntent().getStringExtra("userName");
         String profilePic = getIntent().getStringExtra("profilePic");
 

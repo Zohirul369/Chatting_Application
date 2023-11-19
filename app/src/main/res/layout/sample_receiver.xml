@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="10dp"
+    android:background="@drawable/chat_bg_receiver"
+    android:maxWidth="320dp"
+    android:maxHeight="320dp"
+    android:minHeight="30dp">
+
+    <TextView
+        android:id="@+id/receiver_chat_mgs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="chat text"
+        android:inputType="textLongMessage|textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/receiver_time_view"
+        app:layout_constraintStart_toStartOf="@+id/receiver_guideline"
+        android:maxWidth="280dp"
+        android:minHeight="30dp"/>
+
+    <TextView
+        android:id="@+id/receiver_time_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="2:02pm"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/receiver_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="18dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
