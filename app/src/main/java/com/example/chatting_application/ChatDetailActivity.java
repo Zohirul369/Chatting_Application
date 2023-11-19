@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.chatting_application.Adapter.ChatAdapter;
 import com.example.chatting_application.Model.Messages;
 import com.example.chatting_application.databinding.ActivityChatDetailBinding;
 import com.google.firebase.auth.FirebaseAuth;
@@ -50,5 +51,6 @@ public class ChatDetailActivity extends AppCompatActivity {
         });
 
         final ArrayList<Messages> messagesModels = new ArrayList<>();
+        final ChatAdapter chatAdapter = new ChatAdapter(messagesModels,this,receiverId);
     }
 }
