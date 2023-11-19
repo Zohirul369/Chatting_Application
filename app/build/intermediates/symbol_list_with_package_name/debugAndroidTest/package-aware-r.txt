@@ -1,0 +1,3 @@
+com.example.chatting_application.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

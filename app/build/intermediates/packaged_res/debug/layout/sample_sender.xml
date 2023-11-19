@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/chat_bg_sender"
+        android:maxWidth="320dp"
+        android:maxHeight="320dp"
+        android:minHeight="30dp">
+
+        <TextView
+            android:id="@+id/sender_chat_mgs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="18dp"
+            android:inputType="textLongMessage|textMultiLine"
+            android:maxWidth="280dp"
+            android:minHeight="30dp"
+            android:padding="5dp"
+            android:text="chat text"
+            app:layout_constraintBottom_toTopOf="@+id/sender_time_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/sender_time_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="2:02pm"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sender_guideline" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/sender_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="18dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_chat_bg_receiver.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\chat_bg_receiver.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_send.png.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\send.png"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\layout_activity_sing_up.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\layout\\activity_sing_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\layout_activity_sing_in.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\layout\\activity_sing_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\layout_sample_receiver.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\layout\\sample_receiver.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_facebook.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\facebook.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\layout_fragment_status.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\layout\\fragment_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\layout_fragment_calls.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\layout\\fragment_calls.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_menu.png.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_background_image.jpg.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\background_image.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\layout_fragment_chats.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\layout\\fragment_chats.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_audio_call.png.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\audio_call.png"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_chat_bg_sender.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\chat_bg_sender.xml"
+    },
+    {
+        "merged": "com.example.chatting_application.app-merged_res-38:/layout_activity_chat_detail.xml.flat",
+        "source": "com.example.chatting_application.app-main-40:/layout/activity_chat_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_type_mgs_background.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\type_mgs_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_avatar3.png.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\avatar3.png"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_baseline_arrow_circle_left_24.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\baseline_arrow_circle_left_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\menu_sidemenu.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\menu\\sidemenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_backgroundp.jpg.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\backgroundp.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_arrow_left.png.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\arrow_left.png"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\layout_show_users.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\layout\\show_users.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_avatar.png.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\avatar.png"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_notification.png.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\notification.png"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\layout_sample_sender.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\layout\\sample_sender.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_video_call.png.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\video_call.png"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_send_mgs.png.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\send_mgs.png"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_chat_background.jpg.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\chat_background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\layout_activity_chat_detail.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\layout\\activity_chat_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_chat_app_icon.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\chat_app_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-merged_res-38:\\drawable_google.xml.flat",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\drawable\\google.xml"
+    }
+]

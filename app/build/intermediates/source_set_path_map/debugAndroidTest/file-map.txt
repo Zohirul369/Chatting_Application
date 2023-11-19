@@ -1,0 +1,6 @@
+com.example.chatting_application.test.app-annotation-experimental-1.3.0-0 C:\Users\Md. Johirul\.gradle\caches\transforms-3\0dea92681aa203bd37c910b5ab71da16\transformed\annotation-experimental-1.3.0\res
+com.example.chatting_application.test.app-core-1.5.0-1 C:\Users\Md. Johirul\.gradle\caches\transforms-3\32d8e573f4cb972baf253b664052f680\transformed\core-1.5.0\res
+com.example.chatting_application.test.app-androidTest-2 D:\PlayGround\Android\Android My create Java Projects\Chatting_Application\app\build\generated\res\resValues\androidTest\debug
+com.example.chatting_application.test.app-mergeDebugAndroidTestResources-3 D:\PlayGround\Android\Android My create Java Projects\Chatting_Application\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.chatting_application.test.app-mergeDebugAndroidTestResources-4 D:\PlayGround\Android\Android My create Java Projects\Chatting_Application\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.chatting_application.test.app-merged_res-5 D:\PlayGround\Android\Android My create Java Projects\Chatting_Application\app\build\intermediates\merged_res\debugAndroidTest
