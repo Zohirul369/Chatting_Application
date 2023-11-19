@@ -49,6 +49,5 @@ public class ChatDetailActivity extends AppCompatActivity {
             }
         });
 
-        final ArrayList<Messages> messagesModels = new ArrayList<>();
     }
 }
