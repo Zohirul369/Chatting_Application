@@ -15,23 +15,25 @@
         android:id="@+id/receiver_chat_mgs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="5dp"
+        android:layout_marginEnd="2dp"
+        android:maxWidth="280dp"
+        android:minHeight="20dp"
+        android:textSize="18dp"
         android:text="chat text"
         android:inputType="textLongMessage|textMultiLine"
         app:layout_constraintBottom_toTopOf="@+id/receiver_time_view"
-        app:layout_constraintStart_toStartOf="@+id/receiver_guideline"
-        android:maxWidth="280dp"
-        android:minHeight="30dp"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/receiver_guideline" />
 
     <TextView
         android:id="@+id/receiver_time_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="5dp"
+        android:layout_marginBottom="2dp"
         android:text="2:02pm"
         android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/receiver_guideline" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/receiver_guideline"

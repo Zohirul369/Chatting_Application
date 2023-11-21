@@ -1446,6 +1446,8 @@ int color foreground_material_light 0x7f050071
 int color green_blue 0x7f050072
 int color highlighted_text_material_dark 0x7f050073
 int color highlighted_text_material_light 0x7f050074
+int color light_Pink 0x7f050308
+int color light_blue 0x7f050309
 int color lightgreen 0x7f050075
 int color lightgrey 0x7f050076
 int color m3_appbar_overlay_color 0x7f050077

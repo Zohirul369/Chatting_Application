@@ -1,5 +1,6 @@
 package com.example.chatting_application;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
@@ -12,7 +13,10 @@ import com.example.chatting_application.Model.Messages;
 import com.example.chatting_application.databinding.ActivityChatDetailBinding;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -63,6 +67,27 @@ public class ChatDetailActivity extends AppCompatActivity {
         final String senderRoom = senderId + receiverId;
         final String receiverRoom = receiverId + senderId;
 
+        database.getReference().child("chats")
+                .child(senderRoom)
+                .addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        messagesModels.clear();
+                        for (DataSnapshot snapshot1 : snapshot.getChildren())
+                        {
+                            Messages model = snapshot1.getValue(Messages.class);
+                            model.setMessageId(snapshot1.getKey());
+                            messagesModels.add(model);
+                        }
+                        chatAdapter.notifyDataSetChanged();
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError error) {
+
+                    }
+                });
+
         binding.sendmgs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -71,13 +96,13 @@ public class ChatDetailActivity extends AppCompatActivity {
                 modelMessages.setTimestamp(new Date().getTime());
                 binding.chatTextMgs.setText("");
 
-                database.getReference().child("Chats")
+                database.getReference().child("chats")
                         .child(senderRoom)
                         .push()
                         .setValue(modelMessages).addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void unused) {
-                                database.getReference().child("Chats")
+                                database.getReference().child("chats")
                                         .child(receiverRoom)
                                         .push()
                                         .setValue(modelMessages).addOnSuccessListener(new OnSuccessListener<Void>() {

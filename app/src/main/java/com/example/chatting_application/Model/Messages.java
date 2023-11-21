@@ -10,9 +10,9 @@ public class Messages {
         this.timestamp = timestamp;
     }
 
-    public Messages(String uId, String messageId) {
+    public Messages(String uId, String message) {
         this.uId = uId;
-        this.messageId = messageId;
+        this.message = message;
     }
 
     public Messages() {

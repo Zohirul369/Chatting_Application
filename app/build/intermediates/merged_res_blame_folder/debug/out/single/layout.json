@@ -28,12 +28,12 @@
         "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\layout\\sample_receiver.xml"
     },
     {
-        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-mergeDebugResources-37:\\layout\\sample_sender.xml",
-        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\layout\\sample_sender.xml"
+        "merged": "com.example.chatting_application.app-mergeDebugResources-37:/layout/sample_receiver.xml",
+        "source": "com.example.chatting_application.app-main-40:/layout/sample_receiver.xml"
     },
     {
-        "merged": "com.example.chatting_application.app-mergeDebugResources-37:/layout/activity_chat_detail.xml",
-        "source": "com.example.chatting_application.app-main-40:/layout/activity_chat_detail.xml"
+        "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-mergeDebugResources-37:\\layout\\sample_sender.xml",
+        "source": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-main-40:\\layout\\sample_sender.xml"
     },
     {
         "merged": "C:\\Users\\Md. Johirul\\.gradle\\daemon\\8.4-rc-2\\com.example.chatting_application.app-mergeDebugResources-37:\\layout\\activity_chat_detail.xml",
