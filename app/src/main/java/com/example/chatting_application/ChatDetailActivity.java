@@ -78,6 +78,7 @@ public class ChatDetailActivity extends AppCompatActivity {
                             Messages model = snapshot1.getValue(Messages.class);
                             model.setMessageId(snapshot1.getKey());
                             messagesModels.add(model);
+
                         }
                         chatAdapter.notifyDataSetChanged();
                     }

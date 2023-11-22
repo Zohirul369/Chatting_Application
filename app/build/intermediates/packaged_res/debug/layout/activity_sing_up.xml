@@ -76,7 +76,7 @@
             android:id="@+id/singUp_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SingUp"
+            android:text="SignUp"
             android:textAllCaps="false"
             android:textSize="25dp" />
 
@@ -117,7 +117,7 @@
             android:layout_weight="1"
             android:textSize="15dp"
             android:textColor="@color/white"
-            android:text="Sing Up with Phone" />
+            android:text="Sign Up with Phone" />
 
     </LinearLayout>
 

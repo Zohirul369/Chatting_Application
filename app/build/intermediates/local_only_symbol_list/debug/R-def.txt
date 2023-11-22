@@ -83,6 +83,7 @@ id user_password
 id video_call
 id view_pager
 layout activity_chat_detail
+layout activity_group_chat
 layout activity_main
 layout activity_sing_in
 layout activity_sing_up

@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
         int item_id=item.getItemId();
 
             if (item_id==R.id.group_chat){
+                Intent intent = new Intent(MainActivity.this , GroupChatActivity.class);
+                startActivity(intent);
 
             }
 

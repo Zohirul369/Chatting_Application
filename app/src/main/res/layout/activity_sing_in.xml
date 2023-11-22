@@ -58,7 +58,7 @@
             android:layout_gravity="right"
             android:textColor="@color/white"
             android:padding="10dp"
-            android:text="Click hear to Sing Up"
+            android:text="Click hear to Sign Up"
             android:textSize="15dp" />
 
         <Button
@@ -66,7 +66,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAllCaps="false"
-            android:text="SingIn"
+            android:text="SignIn"
             android:textSize="25dp" />
 
         <LinearLayout
@@ -104,7 +104,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="SingIn with Phone"
+            android:text="SignIn with Phone"
             android:textColor="@color/white"
             android:textSize="15dp" />
 
